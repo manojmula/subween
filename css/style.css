@@ -1,0 +1,278 @@
+/* Rotating the website image in z axis */
+/* CLOUD IMAGE MANIPULATION */
+#title
+{
+  background-color: #ddf3f5;
+  padding-top:  3rem;
+  padding-bottom: 3rem;
+}
+.navbar-brand
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 10rem;
+}
+.title
+{
+  margin-top: 5rem;
+  text-align: center;
+}
+.nav-button
+{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 1rem;
+}
+.website-png
+{
+  width:20rem;
+  height :20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+
+}
+.urban
+{
+  margin-top: 10rem;
+  width:10rem;
+  height: 10rem;
+}
+.cloud1
+{
+  width:3rem;
+  animation-name: scroll;
+  animation-duration: 45s;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+
+}
+.bird
+{
+  width:3rem;
+  animation-name: scroll-anti;
+  animation-duration: 45s;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  margin-top: 1rem;
+
+}
+.bird2
+{
+  width:3rem;
+  animation-name: scroll-anti;
+  animation-duration: 43s;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  margin-top: -1rem;
+  margin-right: 2rem;
+}
+.bird3
+{
+  width:3rem;
+  animation-name: scroll-anti;
+  animation-duration: 44s;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+.bird4
+{
+  width:3rem;
+  animation-name: scroll-anti;
+  animation-duration: 42s;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  margin-top: 4rem;
+  margin-right: 5rem;
+}
+@keyframes scroll-anti {
+  from {right : 100%}
+  to {right : 0%;}
+}
+.cloud2
+{
+  width:2rem;
+  height: 2rem;
+  animation-name: scroll;
+  animation-duration: 60s;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+
+}
+@keyframes scroll {
+  from {right : 0%}
+  to {right : 100%;}
+}
+.sun
+{
+  width:3rem;
+  height: 3rem;
+  position: absolute;
+  right:20%;
+  animation-name: rotate;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+}
+@keyframes rotate {
+  from{transform: rotate(359deg);}
+  to{transform:rotate(0deg); }
+}
+
+.tree
+{
+  height: 3rem;
+  width: 3rem;
+  margin-top: 17rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* The headding title */
+.titleh1
+{
+  margin:5rem;
+  text-align: center;
+  color:rgba(100,100, 100,0.8);
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* PROJECT SECTION */
+#projects
+{
+  background-color: #a6dcef;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+#projects h2
+{
+  margin-bottom: 2rem;
+
+}
+.firs-client
+{
+  /* margin-left:10rem; */
+  border-radius: 5%;
+  width:15rem;
+  height:15rem;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.client2
+{
+  /* SLR-Sri Lakshmi Rama Construction */
+  margin-left: 2rem;
+  border-radius: 5%;
+  border-width: 1px;
+  width:15rem;
+  height:15rem;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* CLIENTS FEEDBACK */
+#client-feedback
+{
+  background-color:#f2aaaa;
+  text-align: center;
+  padding: 10rem;
+  font-family: 'Ubuntu', sans-serif;
+  color:#fff;
+
+}
+#client-feedback
+{
+  padding: 0px;
+}
+#client-feedback img
+{
+  width : 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  padding: 1rem;
+
+}
+#client-feedback h3
+{
+  padding: 2rem 2rem 2rem 2rem;
+  line-height: 1.5;
+  font-size: 3rem;
+
+}
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+/* contact */
+#contact
+{
+  background-color: #e36387;
+  text-align: center;
+  color: #fff;
+  padding: 10rem;
+}
+
+#contact h3
+{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2rem;
+}
+
+
+/******Footer*/
+#cta
+{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10%;
+  color: #fff;
+
+}
+#cta h3
+{
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+.btn-n
+{
+  margin: 2rem;
+}
+i
+{
+  margin-right:0.5rem;
+}
+/* Footer */
+#footer
+{
+  padding:7% 15%;
+  text-align: center;
+
+}
+.social-icon
+{
+margin:20px 10px;
+}
+
+/*@media query {
+
+}*/
+
+
+@media (max-width: 1028px)
+{
+
+}
