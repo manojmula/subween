@@ -9,7 +9,7 @@
 .navbar-brand
 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 10rem;
 }
 .title
@@ -153,6 +153,8 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   font-family: 'Montserrat', sans-serif;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 #projects h2
 {

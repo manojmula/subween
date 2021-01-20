@@ -1,0 +1,63 @@
+#contact{
+    background-color: #6666FF;
+    /* display: inline-table; */
+    position: relative;
+    padding: 16rem;
+    padding-top: 10rem;
+    height: 30rem;
+    /* height: 20rem; */
+}
+#footer
+{
+  padding:7% 15% 5% 15%;
+  text-align: center;
+
+}
+#contact a{
+    color:white;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+img{
+    width: 1rem;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
